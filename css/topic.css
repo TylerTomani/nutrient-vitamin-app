@@ -6,6 +6,12 @@
 body {
     padding: 0 2.5%;
 }
+body > header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2
+}
 main {
     display: flex;
     flex-direction: column;
@@ -76,5 +82,9 @@ main {
     flex-basis: 10%;
     margin: 0 5%;
 } */
-
+.img-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+}
 .hide {display: none !important;}
